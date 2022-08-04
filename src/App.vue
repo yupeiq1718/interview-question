@@ -18,6 +18,12 @@
     >
       Q3
     </router-link>
+    <router-link
+      class="p-1 m-1 border-2 border-black bg-white hover:bg-black text-black hover:text-white"
+      to="/question-four"
+    >
+      Q4
+    </router-link>
     <hr class="my-4 border-2 border-black">
   </header>
   <main class="my-2">
