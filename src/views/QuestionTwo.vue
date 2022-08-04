@@ -1,6 +1,3 @@
-<script setup lang="ts">
-
-</script>
 <template>
   <div class="w-full">
     <!-- 使用 CSS/SASS 達成 RWD -->
