@@ -10,6 +10,11 @@ const routes: RouteRecordRaw[] = [
     path: '/question-two',
     name: 'QuestionTwo',
     component: () => import('@/views/QuestionTwo.vue')
+  },
+  {
+    path: '/question-three',
+    name: 'QuestionThree',
+    component: () => import('@/views/QuestionThree.vue')
   }
 ]
 
