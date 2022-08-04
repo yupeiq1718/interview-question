@@ -2,9 +2,9 @@ import { createRouter, createWebHistory, RouterOptions, Router, RouteRecordRaw }
 
 const routes: RouteRecordRaw[] = [
   {
-    path: '/option-one',
-    name: 'OptionOne',
-    component: () => import('@/views/OptionOne.vue')
+    path: '/options-one',
+    name: 'OptionsOne',
+    component: () => import('@/views/OptionsOne.vue')
   },
   {
     path: '/composition-one',

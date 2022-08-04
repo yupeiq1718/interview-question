@@ -1,18 +1,25 @@
-<script setup lang="ts">
-const isArticleModalActive = ref(false)
-const isTableModalActive = ref(false)
-
-const openArticleModal = () => {
-  isArticleModalActive.value = true
-}
-const closeArticleModal = () => {
-  isArticleModalActive.value = false
-}
-const openTableModal = () => {
-  isTableModalActive.value = true
-}
-const closeTableModal = () => {
-  isTableModalActive.value = false
+<script>
+export default {
+  data () {
+    return {
+      isArticleModalActive: false,
+      isTableModalActive: false
+    }
+  },
+  methods: {
+    openArticleModal () {
+      this.isArticleArticleModalActive = true
+    },
+    closeArticleModal () {
+      this.isArticleModalActive = false
+    },
+    openTableModal () {
+      this.isTableModalActive = true
+    },
+    closeTableModal () {
+      this.isTableModalActive = false
+    }
+  }
 }
 </script>
 
