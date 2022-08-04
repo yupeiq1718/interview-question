@@ -16,19 +16,46 @@ const closeTableModal = () => {
 }
 </script>
 
+<!-- <script>
+export default {
+  data () {
+    return {
+      isArticleModalActive: false,
+      isTableModalActive: false
+    }
+  },
+  methods: {
+    openArticleModal () {
+      this.isArticleArticleModalActive = true
+    },
+    closeArticleModal () {
+      this.isArticleModalActive = false
+    },
+    openTableModal () {
+      this.isTableModalActive = true
+    },
+    closeTableModal () {
+      this.isTableModalActive = false
+    }
+  }
+}
+</script> -->
+
 <template>
-  <button
-    class="m-2 px-4 py-2 bg-black hover:bg-white text-white hover:text-black border-2 border-black"
-    @click="openArticleModal"
-  >
-    Open Article
-  </button>
-  <button
-    class="m-2 px-4 py-2 bg-black hover:bg-white text-white hover:text-black border-2 border-black"
-    @click="openTableModal"
-  >
-    Open Table
-  </button>
+  <section>
+    <button
+      class="m-2 px-4 py-2 bg-black hover:bg-white text-white hover:text-black border-2 border-black"
+      @click="openArticleModal"
+    >
+      Open Article
+    </button>
+    <button
+      class="m-2 px-4 py-2 bg-black hover:bg-white text-white hover:text-black border-2 border-black"
+      @click="openTableModal"
+    >
+      Open Table
+    </button>
+  </section>
   <!-- Modal -->
   <!-- 將 Modal 的部分用 BaseModal 元件取代 -->
   <section
