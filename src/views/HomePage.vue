@@ -2,33 +2,33 @@
   <header class="m-4">
     <router-link
       class="p-1 m-1 border-2 border-black bg-white hover:bg-black text-black hover:text-white"
-      to="/question-one"
+      to="/js-one"
     >
-      Q1
+      JS-1
     </router-link>
     <router-link
       class="p-1 m-1 border-2 border-black bg-white hover:bg-black text-black hover:text-white"
-      to="/question-two"
+      to="/js-two"
     >
-      Q2
+      JS-2
     </router-link>
     <router-link
       class="p-1 m-1 border-2 border-black bg-white hover:bg-black text-black hover:text-white"
-      to="/question-three"
+      to="/js-three"
     >
-      Q3
+      JS-3
     </router-link>
     <router-link
       class="p-1 m-1 border-2 border-black bg-white hover:bg-black text-black hover:text-white"
-      to="/question-four"
+      to="/css-one"
     >
-      Q4
+      CSS-1
     </router-link>
     <router-link
       class="p-1 m-1 border-2 border-black bg-white hover:bg-black text-black hover:text-white"
-      to="/question-five"
+      to="/css-two"
     >
-      Q5
+      CSS-2
     </router-link>
   </header>
 </template>

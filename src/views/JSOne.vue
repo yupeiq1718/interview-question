@@ -57,7 +57,7 @@ export default {
     </button>
   </section>
   <!-- Modal -->
-  <!-- 將 Modal 的部分用 QuestionOneModal 元件取代 -->
+  <!-- 將 Modal 的部分用 JSOneModal 元件取代 -->
   <section
     v-if="isArticleModalActive"
     class="w-full h-full fixed top-0 left-0 flex justify-center items-center pointer-events-none"

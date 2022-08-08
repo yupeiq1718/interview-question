@@ -18,5 +18,5 @@ export default {
 }
 </script> -->
 <template>
-  <QuestionThreeChild />
+  <JSTwoChild />
 </template>
