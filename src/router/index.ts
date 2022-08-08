@@ -2,6 +2,11 @@ import { createRouter, createWebHistory, RouterOptions, Router, RouteRecordRaw }
 
 const routes: RouteRecordRaw[] = [
   {
+    path: '/',
+    name: 'HomePage',
+    component: () => import('@/views/HomePage.vue')
+  },
+  {
     path: '/question-one',
     name: 'QuestionOne',
     component: () => import('@/views/QuestionOne.vue')
@@ -20,6 +25,11 @@ const routes: RouteRecordRaw[] = [
     path: '/question-four',
     name: 'QuestionFour',
     component: () => import('@/views/QuestionFour.vue')
+  },
+  {
+    path: '/question-five',
+    name: 'QuestionFive',
+    component: () => import('@/views/QuestionFive.vue')
   }
 ]
 
