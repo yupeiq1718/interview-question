@@ -1,19 +1,19 @@
 <script setup lang="ts">
-alert('1. Parent Created')
+console.log('1. Parent Created')
 
-onBeforeMount(() => alert('2. Parent BeforeMount'))
-onMounted(() => alert('3. Parent Mounted'))
+onBeforeMount(() => console.log('2. Parent BeforeMount'))
+onMounted(() => console.log('3. Parent Mounted'))
 </script>
 <!-- <script>
 export default {
   created () {
-    alert('1. Parent Created')
+    console.log('1. Parent Created')
   },
   beforeMount () {
-    alert('2. Parent BeforeMount')
+    console.log('2. Parent BeforeMount')
   },
   mounted () {
-    alert('3. Parent Mounted')
+    console.log('3. Parent Mounted')
   }
 }
 </script> -->
