@@ -20,6 +20,12 @@
     </router-link>
     <router-link
       class="p-1 m-1 border-2 border-black bg-white hover:bg-black text-black hover:text-white"
+      to="/js-four"
+    >
+      JS-4
+    </router-link>
+    <router-link
+      class="p-1 m-1 border-2 border-black bg-white hover:bg-black text-black hover:text-white"
       to="/css-one"
     >
       CSS-1

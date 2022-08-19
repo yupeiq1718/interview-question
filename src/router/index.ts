@@ -22,6 +22,11 @@ const routes: RouteRecordRaw[] = [
     component: () => import('@/views/JSThree.vue')
   },
   {
+    path: '/js-four',
+    name: 'JSFour',
+    component: () => import('@/views/JSFour.vue')
+  },
+  {
     path: '/css-one',
     name: 'CSSOne',
     component: () => import('@/views/CSSOne.vue')
