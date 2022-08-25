@@ -1,22 +1,4 @@
-<script setup lang="ts">
-const isArticleModalActive = ref(false)
-const isTableModalActive = ref(false)
-
-const openArticleModal = () => {
-  isArticleModalActive.value = true
-}
-const closeArticleModal = () => {
-  isArticleModalActive.value = false
-}
-const openTableModal = () => {
-  isTableModalActive.value = true
-}
-const closeTableModal = () => {
-  isTableModalActive.value = false
-}
-</script>
-
-<!-- <script>
+<script>
 export default {
   data () {
     return {
@@ -39,7 +21,7 @@ export default {
     }
   }
 }
-</script> -->
+</script>
 
 <template>
   <section>
@@ -57,7 +39,7 @@ export default {
     </button>
   </section>
   <!-- Modal -->
-  <!-- 將 Modal 的部分用 JSOneModal 元件取代 -->
+  <!-- 將 Modal 的部分用 BaseModal 元件取代 -->
   <section
     v-if="isArticleModalActive"
     class="w-full h-full fixed top-0 left-0 flex justify-center items-center pointer-events-none"
