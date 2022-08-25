@@ -1,40 +1,13 @@
 <template>
-  <header class="m-4">
-    <router-link
-      class="p-1 m-1 border-2 border-black bg-white hover:bg-black text-black hover:text-white"
-      to="/js-one"
-    >
-      JS-1
-    </router-link>
-    <router-link
-      class="p-1 m-1 border-2 border-black bg-white hover:bg-black text-black hover:text-white"
-      to="/js-two"
-    >
-      JS-2
-    </router-link>
-    <router-link
-      class="p-1 m-1 border-2 border-black bg-white hover:bg-black text-black hover:text-white"
-      to="/js-three"
-    >
-      JS-3
-    </router-link>
-    <router-link
-      class="p-1 m-1 border-2 border-black bg-white hover:bg-black text-black hover:text-white"
-      to="/js-four"
-    >
-      JS-4
-    </router-link>
-    <router-link
-      class="p-1 m-1 border-2 border-black bg-white hover:bg-black text-black hover:text-white"
-      to="/css-one"
-    >
-      CSS-1
-    </router-link>
-    <router-link
-      class="p-1 m-1 border-2 border-black bg-white hover:bg-black text-black hover:text-white"
-      to="/css-two"
-    >
-      CSS-2
-    </router-link>
-  </header>
+  <div class="w-full">
+    <!-- 使用 CSS/SASS 達成 RWD -->
+    <!-- 隨畫面縮放都能維持寬度為 50% 和 16:9 的長寬比 -->
+    <iframe
+      src="https://www.youtube.com/embed/hFQR-JaGRjE"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    />
+  </div>
 </template>
