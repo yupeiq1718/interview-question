@@ -1,40 +1,13 @@
 <template>
-  <header class="m-4">
-    <router-link
-      class="p-1 m-1 border-2 border-black bg-white hover:bg-black text-black hover:text-white"
-      to="/js-one"
-    >
-      JS-1
-    </router-link>
-    <router-link
-      class="p-1 m-1 border-2 border-black bg-white hover:bg-black text-black hover:text-white"
-      to="/js-two"
-    >
-      JS-2
-    </router-link>
-    <router-link
-      class="p-1 m-1 border-2 border-black bg-white hover:bg-black text-black hover:text-white"
-      to="/js-three"
-    >
-      JS-3
-    </router-link>
-    <router-link
-      class="p-1 m-1 border-2 border-black bg-white hover:bg-black text-black hover:text-white"
-      to="/js-four"
-    >
-      JS-4
-    </router-link>
-    <router-link
-      class="p-1 m-1 border-2 border-black bg-white hover:bg-black text-black hover:text-white"
-      to="/css-one"
-    >
-      CSS-1
-    </router-link>
-    <router-link
-      class="p-1 m-1 border-2 border-black bg-white hover:bg-black text-black hover:text-white"
-      to="/css-two"
-    >
-      CSS-2
-    </router-link>
-  </header>
+  <!-- navbar 固定於左側，寬度固定為 100px -->
+  <nav class="bg-black" />
+  <!-- main 填滿右側剩餘空間 -->
+  <main class="bg-gray-200">
+    <!-- header 固定於 main 內部上方，高度為 50px -->
+    <header class="bg-gray-600" />
+    <!-- article 填滿 main 內部剩餘空間 -->
+    <article class="bg-gray-400" />
+    <!-- footer 固定於 main 內部下方，高度為 50px -->
+    <footer class="bg-gray-800" />
+  </main>
 </template>
