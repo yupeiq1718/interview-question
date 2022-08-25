@@ -1,40 +1,61 @@
+
+<script setup lang="ts">
+const itemsData = {
+  fruit: [
+    {
+      id: '231',
+      name: 'apple'
+    }
+  ],
+  language: [
+    {
+      id: '002',
+      name: 'English'
+    },
+    {
+      id: '933',
+      name: 'Chinese'
+    }
+  ],
+  tool: [
+    {
+      id: '205',
+      name: 'computer'
+    },
+    {
+      id: '116',
+      name: 'notebook'
+    }
+  ]
+}
+console.log(itemsData)
+
+type Item = {
+  id: string,
+  type: string,
+  name: string
+}
+const items:Item[] = []
+
+</script>
 <template>
-  <header class="m-4">
-    <router-link
-      class="p-1 m-1 border-2 border-black bg-white hover:bg-black text-black hover:text-white"
-      to="/js-one"
-    >
-      JS-1
-    </router-link>
-    <router-link
-      class="p-1 m-1 border-2 border-black bg-white hover:bg-black text-black hover:text-white"
-      to="/js-two"
-    >
-      JS-2
-    </router-link>
-    <router-link
-      class="p-1 m-1 border-2 border-black bg-white hover:bg-black text-black hover:text-white"
-      to="/js-three"
-    >
-      JS-3
-    </router-link>
-    <router-link
-      class="p-1 m-1 border-2 border-black bg-white hover:bg-black text-black hover:text-white"
-      to="/js-four"
-    >
-      JS-4
-    </router-link>
-    <router-link
-      class="p-1 m-1 border-2 border-black bg-white hover:bg-black text-black hover:text-white"
-      to="/css-one"
-    >
-      CSS-1
-    </router-link>
-    <router-link
-      class="p-1 m-1 border-2 border-black bg-white hover:bg-black text-black hover:text-white"
-      to="/css-two"
-    >
-      CSS-2
-    </router-link>
-  </header>
+  <table class="mx-auto w-1/2 border-2 border-black">
+    <thead class="font-bold">
+      <tr>
+        <td>ID</td>
+        <td>Type</td>
+        <td>Name</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr
+        v-for="item of items"
+        :key="item.id"
+      >
+        <td>{{ item.id }}</td>
+        <td>{{ item.type }}</td>
+        <td>{{ item.name }}</td>
+      </tr>
+    </tbody>
+  </table>
 </template>

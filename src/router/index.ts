@@ -7,34 +7,14 @@ const routes: RouteRecordRaw[] = [
     component: () => import('@/views/HomePage.vue')
   },
   {
-    path: '/js-one',
-    name: 'JSOne',
-    component: () => import('@/views/JSOne.vue')
+    path: '/composition',
+    name: 'CompositionPage',
+    component: () => import('@/views/CompositionPage.vue')
   },
   {
-    path: '/js-two',
-    name: 'JSTwo',
-    component: () => import('@/views/JSTwo.vue')
-  },
-  {
-    path: '/js-three',
-    name: 'JSThree',
-    component: () => import('@/views/JSThree.vue')
-  },
-  {
-    path: '/js-four',
-    name: 'JSFour',
-    component: () => import('@/views/JSFour.vue')
-  },
-  {
-    path: '/css-one',
-    name: 'CSSOne',
-    component: () => import('@/views/CSSOne.vue')
-  },
-  {
-    path: '/css-two',
-    name: 'CSSTwo',
-    component: () => import('@/views/CSSTwo.vue')
+    path: '/options',
+    name: 'OptionsPage',
+    component: () => import('@/views/OptionsPage.vue')
   }
 ]
 
