@@ -3,38 +3,18 @@ import { createRouter, createWebHistory, RouterOptions, Router, RouteRecordRaw }
 const routes: RouteRecordRaw[] = [
   {
     path: '/',
-    name: 'HomePage',
+    name: 'Home',
     component: () => import('@/views/HomePage.vue')
   },
   {
-    path: '/js-one',
-    name: 'JSOne',
-    component: () => import('@/views/JSOne.vue')
+    path: '/composition',
+    name: 'Composition',
+    component: () => import('@/views/CompositionPage.vue')
   },
   {
-    path: '/js-two',
-    name: 'JSTwo',
-    component: () => import('@/views/JSTwo.vue')
-  },
-  {
-    path: '/js-three',
-    name: 'JSThree',
-    component: () => import('@/views/JSThree.vue')
-  },
-  {
-    path: '/js-four',
-    name: 'JSFour',
-    component: () => import('@/views/JSFour.vue')
-  },
-  {
-    path: '/css-one',
-    name: 'CSSOne',
-    component: () => import('@/views/CSSOne.vue')
-  },
-  {
-    path: '/css-two',
-    name: 'CSSTwo',
-    component: () => import('@/views/CSSTwo.vue')
+    path: '/options',
+    name: 'Options',
+    component: () => import('@/views/OptionsPage.vue')
   }
 ]
 
